@@ -144,7 +144,7 @@ export default function SignInScreen() {
 
             {/* Forgot Password Link */}
             <TouchableOpacity onPress={navigateToForgotPassword}>
-              <Text style={[styles.forgotPasswordText, { color: isDark ? theme.secondary : '#eddfcc' }]}>
+              <Text style={[styles.forgotPasswordText, { color: isDark ? theme.secondary : '#f0f0f0' }]}>
                 Forgot your password?
               </Text>
             </TouchableOpacity>
@@ -153,7 +153,7 @@ export default function SignInScreen() {
             <TouchableOpacity
               style={[
                 styles.signInButton,
-                { backgroundColor: isDark ? theme.secondary : '#eddfcc' },
+                { backgroundColor: isDark ? theme.secondary : '#f0f0f0' },
                 (isLoading || loading) && styles.buttonDisabled
               ]}
               onPress={handleSignIn}
