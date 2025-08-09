@@ -172,7 +172,7 @@ export default function SignInScreen() {
               Don't have an account?
             </Text>
             <TouchableOpacity onPress={navigateToSignUp}>
-              <Text style={[styles.signUpLink, { color: '#eddfcc' }]}>
+              <Text style={[styles.signUpLink, { color: '#FFFFFF' }]}>
                 Sign Up
               </Text>
             </TouchableOpacity>
